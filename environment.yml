@@ -1,0 +1,12 @@
+name: kabaddi_dashboard
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - streamlit
+  - numpy
+  - pandas
+  - seaborn
+  - matplotlib
+  - plotly
+  - openpyxl
