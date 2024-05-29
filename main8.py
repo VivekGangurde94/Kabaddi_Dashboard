@@ -13,11 +13,6 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 st.set_page_config(layout="wide")
-try:
-    import plotly.graph_objects as go
-    st.write("Plotly imported successfully")
-except ModuleNotFoundError as e:
-    st.error(f"Plotly import failed: {e}")
 
 # Your existing Streamlit app code
 
