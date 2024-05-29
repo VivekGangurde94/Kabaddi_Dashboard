@@ -1,7 +1,8 @@
 # Kabaddi_Dashboard
 Overview:
 The Kabaddi Dashboard is a data visualization tool designed to provide comprehensive match analysis for Kabaddi enthusiasts. It offers insights into individual raider and defender performances, attack skills, attack locations, defender skills, and tackle locations.
-![Dashboard Screenshot](Screenshot 2024-05-22 140100.png)
+![Dashboard Screenshot](Screenshot%202024-05-22%20140100.png)
+
 
 
 Features:
