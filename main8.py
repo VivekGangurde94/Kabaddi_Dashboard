@@ -1,4 +1,4 @@
-st.set_page_config(layout="wide")
+
 import pandas as pd
 import numpy as np
 import plotly.graph_objects as go
@@ -12,6 +12,7 @@ import pandas as pd
 import streamlit as st
 import pandas as pd
 import numpy as np
+st.set_page_config(layout="wide")
 try:
     import plotly.graph_objects as go
     st.write("Plotly imported successfully")
