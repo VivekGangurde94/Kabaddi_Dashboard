@@ -1,4 +1,4 @@
-
+st.set_page_config(layout="wide")
 import pandas as pd
 import numpy as np
 import plotly.graph_objects as go
@@ -38,7 +38,7 @@ from Raider2 import(Team2_Attack_and_Attack_Locations_Raider,Team2_bonus_points_
 from Defence import (Tackels_Team1_and_Defence_Locations2,Team1_defender_Video_data,Defender_out)
 from Defence2 import(Tackels_Team2_and_Defence_Locations_Players,Team2_defender_Video_data,Team2_Defender_out)
 import os
-st.set_page_config(layout="wide")
+
 def main():
     st.header("TAGTIX")
     st.title('Kabaddi Dashboard')
