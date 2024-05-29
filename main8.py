@@ -8,6 +8,18 @@ import openpyxl
 import streamlit as st
 from streamlit.proto.Selectbox_pb2 import Selectbox
 import pandas as pd
+
+import streamlit as st
+import pandas as pd
+import numpy as np
+try:
+    import plotly.graph_objects as go
+    st.write("Plotly imported successfully")
+except ModuleNotFoundError as e:
+    st.error(f"Plotly import failed: {e}")
+
+# Your existing Streamlit app code
+
 from demo_data import (plot_cumulative_points, analyze_kabaddi_data_team1, analyze_kabaddi_data_team2,
                        Team1_Scorecard, Team2_Scorecard, draw_tornado_chart, team_points,draw_tornado_chart_for_half,
                        analyze_kabaddi_data_by_half,analyze_kabaddi_data_by_half,
