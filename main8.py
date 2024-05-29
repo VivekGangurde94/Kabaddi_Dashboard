@@ -1,4 +1,21 @@
 import streamlit as st
+import pandas as pd
+import numpy as np
+import plotly.graph_objects as go
+import seaborn as sns
+import matplotlib.pyplot as plt
+import openpyxl
+
+print("All libraries imported successfully")
+
+
+print("Custom functions imported successfully")
+
+# Your existing Streamlit app code
+
+
+
+import streamlit as st
 from streamlit.proto.Selectbox_pb2 import Selectbox
 import pandas as pd
 from demo_data import (plot_cumulative_points, analyze_kabaddi_data_team1, analyze_kabaddi_data_team2,
