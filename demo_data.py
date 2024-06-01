@@ -492,7 +492,7 @@ def Team1_Attack_and_Attack_Locations(chart_type, df):
                 xref="x",
                 yref="y",
                 x=0,
-                y=330,  # Adjust the y-coordinate to align the image correctly
+                y=0,  # Adjust the y-coordinate to align the image correctly
                 sizex=470,
                 sizey=330,  # Adjust the size as per your image's dimensions
                 sizing="stretch",
@@ -500,7 +500,7 @@ def Team1_Attack_and_Attack_Locations(chart_type, df):
                 layer="below"
             )],
             xaxis=dict(range=[0, 470], showgrid=False),  # Adjust x-axis range as per your image's width
-            yaxis=dict(range=[0, 330], showgrid=False),  # Adjust y-axis range as per your image's height
+            yaxis=dict(range=[330, 0], showgrid=False),  # Adjust y-axis range as per your image's height
             title='Total Attack Locations',
             showlegend=True,
         )
@@ -591,12 +591,12 @@ def Team1_Attack_and_Attack_Locations(chart_type, df):
 
             # Update layout to include the background image
             fig.update_layout(
-                images=[dict(source=background_image,xref="x",yref="y",x=0,y=330,  # Adjust the y-coordinate to align the image correctly
+                images=[dict(source=background_image,xref="x",yref="y",x=0,y=0,  # Adjust the y-coordinate to align the image correctly
                     sizex=470,sizey=330,  # Adjust the size as per your image's dimensions
                     sizing="stretch",opacity=1,layer="below"
                 )],
                 xaxis=dict(range=[0, 470], showgrid=False),  # Adjust x-axis range as per your image's width
-                yaxis=dict(range=[0, 330], showgrid=False),  # Adjust y-axis range as per your image's height
+                yaxis=dict(range=[330, 0], showgrid=False),  # Adjust y-axis range as per your image's height
                 title='Successful Attack Locations',
                 showlegend=True,
             )
@@ -689,7 +689,7 @@ def Team1_Attack_and_Attack_Locations(chart_type, df):
                 xref="x",
                 yref="y",
                 x=0,
-                y=330,  # Adjust the y-coordinate to align the image correctly
+                y=0,  # Adjust the y-coordinate to align the image correctly
                 sizex=470,
                 sizey=330,  # Adjust the size as per your image's dimensions
                 sizing="stretch",
@@ -697,7 +697,7 @@ def Team1_Attack_and_Attack_Locations(chart_type, df):
                 layer="below"
             )],
             xaxis=dict(range=[0, 470], showgrid=False),  # Adjust x-axis range as per your image's width
-            yaxis=dict(range=[0, 330], showgrid=False),  # Adjust y-axis range as per your image's height
+            yaxis=dict(range=[330, 0], showgrid=False),  # Adjust y-axis range as per your image's height
             title='Unsuccessful Attack Locations',
             showlegend=True,
         )
@@ -793,7 +793,7 @@ def Team2_Attack_and_Attack_Locations(chart_type, df):
                 xref="x",
                 yref="y",
                 x=0,
-                y=330,  # Adjust the y-coordinate to align the image correctly
+                y=0,  # Adjust the y-coordinate to align the image correctly
                 sizex=470,
                 sizey=330,  # Adjust the size as per your image's dimensions
                 sizing="stretch",
@@ -801,7 +801,7 @@ def Team2_Attack_and_Attack_Locations(chart_type, df):
                 layer="below"
             )],
             xaxis=dict(range=[0, 470], showgrid=False),  # Adjust x-axis range as per your image's width
-            yaxis=dict(range=[0, 330], showgrid=False),  # Adjust y-axis range as per your image's height
+            yaxis=dict(range=[330, 0], showgrid=False),  # Adjust y-axis range as per your image's height
             title='Total Attack Locations',
             showlegend=True,
         )
@@ -889,12 +889,12 @@ def Team2_Attack_and_Attack_Locations(chart_type, df):
 
             # Update layout to include the background image
             fig.update_layout(
-                images=[dict(source=background_image,xref="x",yref="y",x=0,y=330,  # Adjust the y-coordinate to align the image correctly
+                images=[dict(source=background_image,xref="x",yref="y",x=0,y=0,  # Adjust the y-coordinate to align the image correctly
                     sizex=470,sizey=330,  # Adjust the size as per your image's dimensions
                     sizing="stretch",opacity=1,layer="below"
                 )],
                 xaxis=dict(range=[0, 470], showgrid=False),  # Adjust x-axis range as per your image's width
-                yaxis=dict(range=[0, 330], showgrid=False),  # Adjust y-axis range as per your image's height
+                yaxis=dict(range=[330, 0], showgrid=False),  # Adjust y-axis range as per your image's height
                 title='Successful Attack Locations',
                 showlegend=True,
             )
@@ -987,7 +987,7 @@ def Team2_Attack_and_Attack_Locations(chart_type, df):
                 xref="x",
                 yref="y",
                 x=0,
-                y=330,  # Adjust the y-coordinate to align the image correctly
+                y=0,  # Adjust the y-coordinate to align the image correctly
                 sizex=470,
                 sizey=330,  # Adjust the size as per your image's dimensions
                 sizing="stretch",
@@ -995,7 +995,7 @@ def Team2_Attack_and_Attack_Locations(chart_type, df):
                 layer="below"
             )],
             xaxis=dict(range=[0, 470], showgrid=False),  # Adjust x-axis range as per your image's width
-            yaxis=dict(range=[0, 330], showgrid=False),  # Adjust y-axis range as per your image's height
+            yaxis=dict(range=[330, 0], showgrid=False),  # Adjust y-axis range as per your image's height
             title='Unsuccessful Attack Locations',
             showlegend=True,
         )
@@ -1050,7 +1050,7 @@ def Tackels_Team1_and_Defence_Locations(chart_type, df):
             xref="x",
             yref="y",
             x=0,
-            y=330,
+            y=0,
             sizex=470,
             sizey=330,
             sizing="stretch",
@@ -1058,7 +1058,7 @@ def Tackels_Team1_and_Defence_Locations(chart_type, df):
             layer="below"
         )],
         xaxis=dict(range=[0, 470], showgrid=False),
-        yaxis=dict(range=[0, 330], showgrid=False),
+        yaxis=dict(range=[330, 0], showgrid=False),
         title=f"{chart_type.capitalize()} Tackle Locations",
         showlegend=True,
     )
@@ -1112,7 +1112,7 @@ def Tackels_Team2_and_Defence_Locations(chart_type, df):
             xref="x",
             yref="y",
             x=0,
-            y=330,
+            y=0,
             sizex=470,
             sizey=330,
             sizing="stretch",
@@ -1120,7 +1120,7 @@ def Tackels_Team2_and_Defence_Locations(chart_type, df):
             layer="below"
         )],
         xaxis=dict(range=[0, 470], showgrid=False),
-        yaxis=dict(range=[0, 330], showgrid=False),
+        yaxis=dict(range=[330, 0], showgrid=False),
         title=f"{chart_type.capitalize()} Tackle Locations",
         showlegend=True,
     )
